@@ -10,8 +10,13 @@
   }
 
   &--large {
-    font-size: 1.25rem;
     padding: 1.1rem 2.0rem;
+
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
+
   }
+
 }
 
