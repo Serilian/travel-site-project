@@ -12,6 +12,7 @@
 node_modules/
 .tmp/
 .idea/workspace.xml
+workspace.xml
 .idea/cssdialects.xml
 
 
