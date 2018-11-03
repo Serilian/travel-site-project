@@ -36,4 +36,8 @@
   &--b-margin-large {
     margin-bottom: 1.5em;
   }
+
+  &--no-top-margin {
+    margin-top: 0;
+  }
 }

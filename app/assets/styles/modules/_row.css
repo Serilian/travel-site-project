@@ -11,6 +11,16 @@
     }
   }
 
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
+  @mixin atMedium {
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    }
+  }
+
   &__medium-8 {
     float: left;
     width: 100%;
