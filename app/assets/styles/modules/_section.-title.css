@@ -12,11 +12,17 @@
 
 
     @mixin atSmall {
+      position: relative;
+      top: 14px;
       margin-right: 0.5rem;
       margin-left: 0;
       display: inline-block;
     }
 
+  }
+
+  &--blue {
+    color: $mainBlue;
   }
 
   @mixin atSmall {
