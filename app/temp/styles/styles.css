@@ -478,7 +478,6 @@ a {
   margin-right: auto;
   overflow: hidden;
 
-
 }
 .wrapper--medium {
     max-width: 976px;
@@ -514,6 +513,9 @@ a {
       padding-left: 18px;
       padding-right: 18px
   }
+  }
+.wrapper--narrow {
+    max-width: 470px;
   }
 .page-section {
 
@@ -754,7 +756,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-
   }
 @media (min-width: 530px) {
 .section-title__icon {
@@ -763,7 +764,6 @@ a {
       margin-right: 0.5rem;
       margin-left: 0;
       display: inline-block
-
   }
   }
 .section-title--blue {
@@ -773,6 +773,10 @@ a {
 .section-title {
     font-size: 3.75rem
 }
+  }
+.section-title--less-margin {
+    margin-bottom: 1.1rem;
+    margin-top: 0;
   }
 .feature-item {
   padding-bottom: 2.5rem;
@@ -1179,6 +1183,84 @@ a {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+
+}
+.modal--is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+
+  }
+.modal__description {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.68;
+  }
+.modal__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2rem;
+    -webkit-transform: scaleX(1.2);
+            transform: scaleX(1.2);
+    -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+    color: #2f5572;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+.modal__close:hover {
+      color: #d59544;
+      cursor: pointer;
+    }
+.modal__inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+.social-icons {
+  text-align: center;
+}
+.social-icons__icon {
+    background-color: #d59544;
+    display: inline-block;
+    margin: 0 5px 5px 5px;
+    width: 33% ;
+    height: 72px;
+    position: relative;
+  }
+@media (min-width: 800px) {
+.social-icons__icon {
+      width: 72px;
+      margin: 0 5px
+  }
+  }
+.social-icons__icon .icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+    }
 
 
 

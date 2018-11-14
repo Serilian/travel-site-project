@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751d5e1e-eb5d-4cc7-ba5f-7c0b3edefd46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scripts/modules/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/styles/modules/_modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/styles/modules/_social-icons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/temp/scripts/app-webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/scripts/app-webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,48 +43,48 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="60" />
+          <entry key="css" value="72" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="3" />
           <entry key="jpg" value="7" />
-          <entry key="js" value="32" />
+          <entry key="js" value="39" />
           <entry key="json" value="6" />
-          <entry key="svg" value="1" />
+          <entry key="svg" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="60" />
+          <entry key="CSS" value="72" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="7" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="32" />
+          <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SVG" value="1" />
+          <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6665" />
+          <entry key="css" value="7628" />
           <entry key="gitignore" value="24" />
-          <entry key="html" value="2426" />
-          <entry key="js" value="6946" />
+          <entry key="html" value="2906" />
+          <entry key="js" value="7850" />
           <entry key="json" value="7" />
           <entry key="txt" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6665" />
-          <entry key="HTML" value="2426" />
+          <entry key="CSS" value="7628" />
+          <entry key="HTML" value="2906" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="6946" />
+          <entry key="JavaScript" value="7850" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -95,19 +97,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="299">
+              <caret line="248" column="44" selection-start-line="248" selection-start-column="44" selection-end-line="248" selection-end-column="44" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#meta#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#source#0;n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#source#1;n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#h2#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -136,7 +135,6 @@
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#img#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -151,9 +149,6 @@
                 <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -169,29 +164,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/MobileMenu.js">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_sprite.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/Modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_modal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="357">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
+                <element signature="n#!!block;n#addSmoothScrolling#0;n#StickyHeader#0" />
                 <element signature="n#!!block;n#createWaypoint#0;n#StickyHeader#0" />
                 <element signature="n#!!block;n#createPageSectionWaypoints#0;n#StickyHeader#0" />
               </folding>
@@ -200,19 +205,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/jquery-smooth-scroll/src/jquery.smooth-scroll.js">
+        <entry file="file://$PROJECT_DIR$/app/assets/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -220,26 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="289">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -257,6 +235,8 @@
     <findStrings>
       <find>icon--</find>
       <find>data-matching-link</find>
+      <find>sprite-69f19c2e</find>
+      <find>social</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,16 +248,13 @@
         <option value="$PROJECT_DIR$/gulp.js" />
         <option value="$PROJECT_DIR$/app/assets/styles.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/base/main.css" />
-        <option value="$PROJECT_DIR$/app/temp/styles/styles.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/base/_variables.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/wrapper.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_btn.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_headline.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_generic-content-container.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/base/_mixins.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_row.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_testimonial.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_page-section.css" />
@@ -294,14 +271,20 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/person.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/MobileMenu.js" />
-        <option value="$PROJECT_DIR$/app/assets/styles/styles.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_reveal-item.css" />
-        <option value="$PROJECT_DIR$/app/assets/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/styles.css" />
+        <option value="$PROJECT_DIR$/app/temp/styles/styles.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_social-icons.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_modal.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/modules/Modal.js" />
       </list>
     </option>
   </component>
@@ -330,7 +313,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="939" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -390,6 +373,19 @@
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="travel-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel-site" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travel-site" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -406,11 +402,11 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Development\Training projects\webprojects\travel-site\travel-site\app\assets\styles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\Training projects\webprojects\travel-site\travel-site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Training projects\webprojects\travel-site\travel-site\app\assets\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -465,6 +461,7 @@
       <workItem from="1541977865270" duration="4969000" />
       <workItem from="1542041301909" duration="4788000" />
       <workItem from="1542127720768" duration="223000" />
+      <workItem from="1542200213049" duration="7453000" />
     </task>
     <task id="LOCAL-00001" summary="Adding gulp, webpack, browsersync, mobile-first approach.">
       <created>1540835286423</created>
@@ -491,13 +488,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81785000" />
+    <option name="totallyTimeSpent" value="89238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="751" height="840" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09946237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,14 +504,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23762377" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23762377" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956153" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24165708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2243685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,7 +522,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27015558" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23762377" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956153" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -546,11 +542,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding next section and column layout." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010 package.json" />
-    <entry file="file://$PROJECT_DIR$/app/temp/styles/main.css/styles.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-watch/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -579,13 +570,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/our-start.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_btn.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/temp/sprite/css/sprite.css" />
     <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_global.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -676,38 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/sprite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_sprite.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/tasks/styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/temp/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14705">
-          <caret line="865" column="57" selection-start-line="865" selection-start-column="57" selection-end-line="865" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -723,11 +672,6 @@
         <state relative-caret-position="376">
           <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/temp/scripts/app-webpack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp/tasks/webpack.js">
@@ -759,28 +703,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-smooth-scroll/src/jquery.smooth-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/temp/scripts/app-webpack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/sprites/sprite-69f19c2e.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/temp/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="804" selection-start-line="804" selection-end-line="804" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_sprite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_social-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_modal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="248" column="44" selection-start-line="248" selection-start-column="44" selection-end-line="248" selection-end-column="44" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#meta#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#source#0;n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#source#1;n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#h2#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -809,7 +849,6 @@
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#img#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -824,10 +863,33 @@
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!block;n#addSmoothScrolling#0;n#StickyHeader#0" />
+            <element signature="n#!!block;n#createWaypoint#0;n#StickyHeader#0" />
+            <element signature="n#!!block;n#createPageSectionWaypoints#0;n#StickyHeader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/MobileMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -838,63 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/MobileMenu.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/Modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jquery-smooth-scroll/src/jquery.smooth-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_primary-nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!block;n#createWaypoint#0;n#StickyHeader#0" />
-            <element signature="n#!!block;n#createPageSectionWaypoints#0;n#StickyHeader#0" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>

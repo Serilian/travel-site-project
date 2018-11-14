@@ -10336,11 +10336,14 @@ var _RevealOnScroll = __webpack_require__(3);
 
 var _StickyHeader = __webpack_require__(5);
 
+var _Modal = __webpack_require__(7);
+
 new _MobileMenu.MobileMenu();
 
 new _RevealOnScroll.RevealOnScroll(".feature-item", 85);
 new _RevealOnScroll.RevealOnScroll(".testimonial", 70);
 new _StickyHeader.StickyHeader();
+new _Modal.Modal();
 
 /***/ }),
 /* 2 */
@@ -11264,7 +11267,6 @@ var StickyHeader = exports.StickyHeader = function () {
     }, {
         key: 'createPageSectionWaypoints',
         value: function createPageSectionWaypoints(collection, headerLinks) {
-            console.log(headerLinks);
             collection.forEach(function (item) {
                 new Waypoint({
                     element: item,
@@ -11661,6 +11663,66 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 }));
 
 
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Modal = exports.Modal = function () {
+    function Modal() {
+        _classCallCheck(this, Modal);
+
+        this.openModalButtons = document.querySelectorAll('.open-modal');
+        this.closeModalButton = document.querySelector('.modal__close');
+        this.modal = document.querySelector(".modal");
+        this.loadEvents();
+    }
+
+    _createClass(Modal, [{
+        key: 'openModal',
+        value: function openModal() {
+            this.modal.classList.add('modal--is-visible');
+            return false;
+        }
+    }, {
+        key: 'closeModal',
+        value: function closeModal() {
+            this.modal.classList.remove('modal--is-visible');
+        }
+    }, {
+        key: 'loadEvents',
+        value: function loadEvents() {
+            var _this = this;
+
+            this.closeModalButton.addEventListener('click', this.closeModal.bind(this));
+
+            this.openModalButtons.forEach(function (button) {
+                button.addEventListener('click', _this.openModal.bind(_this));
+            });
+            document.addEventListener('keyup', this.keyPressHandler.bind(this));
+        }
+    }, {
+        key: 'keyPressHandler',
+        value: function keyPressHandler(e) {
+            if (e.keyCode === 27) {
+                this.closeModal();
+            }
+        }
+    }]);
+
+    return Modal;
+}();
 
 /***/ })
 /******/ ]);

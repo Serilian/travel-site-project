@@ -32,7 +32,6 @@ export class StickyHeader {
     }
 
     createPageSectionWaypoints(collection, headerLinks) {
-        console.log(headerLinks);
         collection.forEach((item) => {
             new Waypoint({
                 element: item,
