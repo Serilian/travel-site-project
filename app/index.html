@@ -8,6 +8,7 @@
     <meta name="description"
           content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
     <link rel="stylesheet" href="temp/styles/styles.css">
+    <script src="temp/scripts/Vendor.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -61,7 +62,7 @@
             Ever since, we&rsquo;ve been working to make travel <strong>better for everyone</strong>.</h3>
         <div class="wrapper wrapper--medium wrapper--bottom-margin">
             <img sizes="(min-width: 970px) 976px, 100vw"
-                 srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 876w, assets/images/first-trip-hi-dpi.jpg 1952w"
+             class="lazyload"    data-srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 876w, assets/images/first-trip-hi-dpi.jpg 1952w"
                  alt="Couple walking down a street.">
         </div>
 
@@ -72,7 +73,7 @@
                             srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w"/>
                     <source sizes="320px" media="(min-width: 800px)"
                             srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w"/>
-                    <img srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w"
+                    <img class="lazyload" data-srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w"
                          alt="Our founder Jane Goe"/>
                 </picture>
             </div>
@@ -176,7 +177,7 @@
 </div>
 
 <div data-matching-link="#testimonials-link" id="testimonials"
-     class="page-section page-section--testimonials page-section--no-b-p-until-large">
+     class="page-section page-section--testimonials lazyload page-section--no-b-p-until-large">
     <div class="wrapper wrapper--no-p-until-large">
         <h2 class="section-title section-title--blue">
             <img class="section-title__icon"
@@ -188,7 +189,7 @@
             <div class="row__large-4">
 
                 <div class="testimonial">
-                    <div class="testimonial__picture"><img src="assets/images/testimonial-jane.jpg"></div>
+                    <div class="testimonial__picture"><img class="lazyload" data-src="assets/images/testimonial-jane.jpg"></div>
                     <h3 class="testimonial__title">Jane Doe</h3>
                     <h4 class="testimonial__subtitle">9 Time Escaper</h4>
                     <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -206,7 +207,7 @@
                 <div class="testimonial">
 
                     <div class="testimonial__picture">
-                        <img src="assets/images/testimonial-john.jpg">
+                        <img class="lazyload" data-src="assets/images/testimonial-john.jpg">
                     </div>
                     <h3 class="testimonial__title">John Smith</h3>
                     <h4 class="testimonial__subtitle">4 Time Escaper</h4>
@@ -224,7 +225,7 @@
             <div class="row__large-4">
                 <div class="testimonial testimonial--last">
                     <div class="testimonial__picture">
-                        <img src="assets/images/testimonial-cat.jpg">
+                        <img class="lazyload" data-src="assets/images/testimonial-cat.jpg">
                     </div>
                     <h3 class="testimonial__title">Cat McKitty</h3>
                     <h4 class="testimonial__subtitle">6 Time Escaper today</h4>
@@ -273,7 +274,8 @@
 </div>
 
 
-<script src="temp/scripts/app-webpack.js"></script>
+<script src="temp/scripts/App.js"></script>
+
 
 </body>
 </html>

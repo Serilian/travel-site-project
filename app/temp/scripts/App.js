@@ -10340,7 +10340,7 @@ var _Modal = __webpack_require__(7);
 
 new _MobileMenu.MobileMenu();
 
-new _RevealOnScroll.RevealOnScroll(".feature-item", 85);
+new _RevealOnScroll.RevealOnScroll(".feature-item", 86);
 new _RevealOnScroll.RevealOnScroll(".testimonial", 70);
 new _StickyHeader.StickyHeader();
 new _Modal.Modal();
@@ -11236,15 +11236,24 @@ var StickyHeader = exports.StickyHeader = function () {
     function StickyHeader() {
         _classCallCheck(this, StickyHeader);
 
+        this.lazyimages = (0, _jquery2.default)('.lazyloaded');
         this.siteHeader = document.querySelector(".site-header");
         this.createWaypoint(this.siteHeader);
         this.pageSections = document.querySelectorAll(".page-section");
         this.headerLinks = (0, _jquery2.default)('.primary-nav a');
         this.createPageSectionWaypoints(this.pageSections, this.headerLinks);
         this.addSmoothScrolling();
+        this.refreshWaypoints();
     }
 
     _createClass(StickyHeader, [{
+        key: 'refreshWaypoints',
+        value: function refreshWaypoints() {
+            this.lazyimages.on('load', function () {
+                Waypoint.refreshAll();
+            });
+        }
+    }, {
         key: 'addSmoothScrolling',
         value: function addSmoothScrolling() {
             this.headerLinks.smoothScroll();

@@ -5,7 +5,7 @@ import {Modal} from "./modules/Modal";
 
 new MobileMenu();
 
-new RevealOnScroll(".feature-item", 85);
+new RevealOnScroll(".feature-item", 86);
 new RevealOnScroll(".testimonial", 70);
 new StickyHeader();
 new Modal();
