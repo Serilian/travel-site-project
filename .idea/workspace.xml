@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751d5e1e-eb5d-4cc7-ba5f-7c0b3edefd46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/scripts/Vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_page-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_page-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/temp/scripts/app-webpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/scripts/Vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/Vendor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +17,7 @@
     <session id="2125614885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -73,7 +63,7 @@
           <entry key="css" value="7652" />
           <entry key="gitignore" value="24" />
           <entry key="html" value="2996" />
-          <entry key="js" value="8151" />
+          <entry key="js" value="8169" />
           <entry key="json" value="7" />
           <entry key="txt" value="116" />
         </counts>
@@ -83,7 +73,7 @@
           <entry key="CSS" value="7652" />
           <entry key="HTML" value="2996" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="8151" />
+          <entry key="JavaScript" value="8169" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -155,11 +145,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/Vendor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulp/tasks/webpack.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -251,13 +244,13 @@
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_section.-title.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_modal.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/Modal.js" />
-        <option value="$PROJECT_DIR$/app/assets/scripts/Vendor.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_page-section.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/StickyHeader.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/Vendor.js" />
       </list>
     </option>
   </component>
@@ -418,7 +411,7 @@
       <workItem from="1542041301909" duration="4788000" />
       <workItem from="1542127720768" duration="223000" />
       <workItem from="1542200213049" duration="9861000" />
-      <workItem from="1542213238468" duration="1449000" />
+      <workItem from="1542213238468" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="Adding gulp, webpack, browsersync, mobile-first approach.">
       <created>1540835286423</created>
@@ -445,7 +438,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93095000" />
+    <option name="totallyTimeSpent" value="93359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="752" height="840" extended-state="0" />
@@ -775,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/Vendor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -839,7 +825,17 @@
     <entry file="file://$PROJECT_DIR$/gulp/tasks/webpack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/Vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

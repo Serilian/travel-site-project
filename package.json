@@ -23,7 +23,7 @@
     "lazysizes": "^4.0.1",
     "normalize.css": "7.0.0",
     "npm": "^6.4.1",
-    "picturefill": "3.0.2",
+    "picturefill": "^3.0.2",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
