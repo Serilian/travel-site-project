@@ -8,26 +8,27 @@ const gulp = require('gulp'),
 const browserSync = require('browser-sync').create();
 
 
-
-gulp.task('previewDist',['build'], ()=>{
+gulp.task('previewDocs', ['build'], () => {
     browserSync.init({
         notify: false,
         server: {
-            baseDir:'dist',
+            baseDir: 'docs',
         }
     });
 });
 
 
-gulp.task('deleteDistFolder', ()=>{
-    return del("./dist")
-});
+gulp.task('deleteDocsFolder', ['icons'], () => {
+        return del("./docs")
+    }
+)
+;
 
 
-gulp.task('copyGeneralFiles',['deleteDistFolder'] ,()=>{
+gulp.task('copyGeneralFiles', ['deleteDocsFolder'], () => {
 
     let paths = ['./app/**/*', '!./app/index.html',
-    '!./app/assets/images/**',
+        '!./app/assets/images/**',
         '!./app/assets/styles/**',
         '!./app/assets/scripts/**',
         '!./app/temp',
@@ -35,30 +36,42 @@ gulp.task('copyGeneralFiles',['deleteDistFolder'] ,()=>{
     ];
 
     return gulp.src(paths)
-        .pipe(gulp.dest('./dist'))
+        .pipe(gulp.dest('./docs'))
 });
 
-gulp.task('optimizeImages',['deleteDistFolder','icons'], ()=>{
-   return gulp.src(['./app/assets/images/**/*', "!./app/assets/images/icons", "!./app/assets/images/icons/**/*"])
-       .pipe(imagemin({
-           progessive: true,
-           interlaced: true,
-           multipass: true
-       }))
-       .pipe(gulp.dest("./dist/assets/images"));
+gulp.task('optimizeImages', ['deleteDocsFolder'], () => {
+    return gulp.src(['./app/assets/images/**/*', "!./app/assets/images/icons", "!./app/assets/images/icons/**/*"])
+        .pipe(imagemin({
+            progessive: true,
+            interlaced: true,
+            multipass: true
+        }))
+        .pipe(gulp.dest("./docs/assets/images"));
 });
 
 
-gulp.task('useMin',['deleteDistFolder','styles', 'webpack'], ()=>{
+gulp.task('useMinTrigger', ['deleteDocsFolder'], () => {
+    gulp.start('useMin');
+});
+
+gulp.task('useMin', ['styles', 'webpack'], () => {
     return gulp.src('./app/index.html')
         .pipe(usemin({
-            css: [function() {return rev()}, function() {return cssnano()}],
-            js: [function() {return rev()}, function(){ return uglify()}]
+            css: [function () {
+                return rev()
+            }, function () {
+                return cssnano()
+            }],
+            js: [function () {
+                return rev()
+            }, function () {
+                return uglify()
+            }]
         }))
-        .pipe(gulp.dest("./dist"));
+        .pipe(gulp.dest("./docs"));
 });
 
 
-gulp.task('build', ['deleteDistFolder','copyGeneralFiles','optimizeImages', 'useMin'], ()=>{
+gulp.task('build', ['deleteDocsFolder', 'copyGeneralFiles', 'optimizeImages', 'useMinTrigger'], () => {
 
 });
