@@ -4,7 +4,12 @@ const rename = require('gulp-rename');
 const del = require('del');
 
 const config = {
-  mode: {
+  shape: {
+    spacing: {
+        padding: 1
+    }
+  },
+    mode: {
       css: {
           sprite: 'sprite.svg',
           render: {
